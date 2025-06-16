@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+  cors-proxy:
+    build: .
+    container_name: cors-proxy
+    ports:
+      - "8080:8080"
+    restart: unless-stopped
+    networks:
+      - cors-proxy-network
+
+networks:
+  cors-proxy-network:
+    driver: bridge
