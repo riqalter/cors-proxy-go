@@ -21,3 +21,9 @@ docker run -p 8080:8080 cors-proxy
 ```
 
 Server runs on `http://localhost:8080`
+
+## Live production server
+You can use the live production server at [cors.riqgarden.pp.ua](https://cors.riqgarden.pp.ua).
+```bash
+https://cors.riqgarden.pp.ua/proxy?url=https://cdn.tailwindcss.com
+```
