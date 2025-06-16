@@ -2,7 +2,7 @@ version: '3.8'
 
 services:
   cors-proxy:
-    build: .
+    build: . # use mine: artemis00/cors-proxy-go if you want pre-built image
     container_name: cors-proxy
     ports:
       - "8080:8080"
